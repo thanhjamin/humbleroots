@@ -3863,6 +3863,7 @@ svg {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  background-color: #717171;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
@@ -6012,9 +6013,6 @@ section#header {
 }
 /* SM media */
 @media (max-width: 991px) {
-  #promo.iphone-cover {
-    margin-bottom: 480px;
-  }
   .iphone {
     padding: 0 144px;
     margin-top: 72px;
@@ -6027,9 +6025,6 @@ section#header {
 }
 /* XS media */
 @media (max-width: 767px) {
-  #promo.iphone-cover {
-    margin-bottom: 120%;
-  }
   #promo.iphone-cover .col-xs-12 {
     padding: 0;
   }
@@ -6305,6 +6300,19 @@ footer p {
 /* ========== XS media ========== */
 @media (max-width: 767px) {
   /* Text center */
+  #promo h1 {
+    font-size: 3em;
+  }
+  #promo p {
+    font-size: 1.15em;
+  }
+  #promo #explanation {
+    font-size: 1em;
+  }
+  #signup {
+    background-position: 0px 0px;
+  }
+
   section {
     text-align: center;
   }
