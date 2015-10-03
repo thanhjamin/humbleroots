@@ -6254,7 +6254,7 @@ form.feedback {
   margin-bottom: 0.5em;
 }
 
-#signup .form-group button {
+#signup .form-group .btn-primary {
   float: right;
   margin-top: 1em;
   padding: 10px 25px;
