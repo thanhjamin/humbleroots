@@ -4,6 +4,6 @@ class UserMailer < ApplicationMailer
 		mail(to: user.email, 
 			subject: "Registered", 
 			from: "admin@humbleroots.co", 
-			bcc: "admin@humbleroots.co")
+			bcc: ["admin@humbleroots.co, chhoukdean@gmail.com"])
 	end
 end
